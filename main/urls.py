@@ -20,6 +20,7 @@ from accounts.views import LoginView
 from django.conf import settings
 from django.conf.urls.static import static
 
+# Main Urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),

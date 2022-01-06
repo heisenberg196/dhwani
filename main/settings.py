@@ -121,7 +121,9 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+REST_KNOX = {
+    'TOKEN_TTL': None, 
+}
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
